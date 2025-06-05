@@ -1,0 +1,16 @@
+{
+  "name": "data-ingestion-api",
+  "version": "1.0.0",
+  "description": "## Features - `/ingest`: Submit list of IDs with priority - `/status/:id`: Check ingestion status - Batches of max 3 IDs - Processes 1 batch every 5s - Prioritizes by HIGH > MEDIUM > LOW and FIFO - Async job queue simulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
+  }
+}
